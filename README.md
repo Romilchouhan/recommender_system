@@ -1,2 +1,2 @@
-# recommender_system
-analytics club coordinator mini project
+# Recommeder system
+This repository contains some basics for recommender sytems.
