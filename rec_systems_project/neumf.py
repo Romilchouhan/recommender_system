@@ -1,3 +1,8 @@
+import numpy as np
+import torch
+import torch.nn as nn
+from torch.utils.data import Dataset, DataLoader
+
 class NeuMF(pl.LightningModule):
     def __init__(self, num_users, num_items, latent_dim_mf, latent_dim_mlp, data, movie_ids):
         super().__init__()

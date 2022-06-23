@@ -1,3 +1,9 @@
+import numpy as np
+import torch
+import torch.nn as nn
+from torch.utils.data import Dataset, DataLoader
+from tqdm.notebook import tqdm
+
 class MovielensTrainDataset(Dataset):
     def __init__(self, data, movie_ids):
         self.data = data

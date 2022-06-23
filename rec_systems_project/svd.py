@@ -1,3 +1,5 @@
+import numpy as np
+
 class SVDModel(object):
     def __init__(self, num_items, num_users, mean,
                 num_factors=100, init_variance=0.1):
